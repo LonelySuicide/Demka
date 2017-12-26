@@ -1,0 +1,14 @@
+D:\Games\SimpleRepository\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+D:\Games\SimpleRepository\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+D:\Games\SimpleRepository\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+D:\Games\SimpleRepository\WpfApp1\WpfApp1\obj\Debug\DemkaWPF.csprojResolveAssemblyReference.cache
+D:\Games\SimpleRepository\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+D:\Games\SimpleRepository\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+D:\Games\SimpleRepository\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+D:\Games\SimpleRepository\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+D:\Games\SimpleRepository\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+D:\Games\SimpleRepository\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+D:\Games\SimpleRepository\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+D:\Games\SimpleRepository\WpfApp1\WpfApp1\obj\Debug\DemkaWPF.csproj.GenerateResource.Cache
+D:\Games\SimpleRepository\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+D:\Games\SimpleRepository\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
