@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="Demka" Height="607.244" Width="670.936">
+        Title="Demka" Height="625.795" Width="670.936">
     <Grid Margin="10,0,0,0">
         <Grid HorizontalAlignment="Left" Height="497" Margin="0,10,0,0" VerticalAlignment="Top" Width="200">
             <Label x:Name="labelService" Content="Услуга" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.541,0.518"/>
@@ -33,13 +33,8 @@
 
         </Grid>
         <Grid HorizontalAlignment="Left" Height="557" Margin="205,10,0,0" VerticalAlignment="Top" Width="448">
-            <Grid HorizontalAlignment="Left" Height="222" Margin="10,10,0,0" VerticalAlignment="Top" Width="428">
-                <Image HorizontalAlignment="Left" Height="65" Margin="10,10,0,0" VerticalAlignment="Top" Width="54" />
+            <Grid HorizontalAlignment="Left" Height="251" Margin="10,67,0,0" VerticalAlignment="Top" Width="428">
                 <Label Content="Иванов Иван&#xD;&#xA;Иванович" HorizontalAlignment="Left" Margin="69,10,0,0" VerticalAlignment="Top" Width="97"/>
-                <Label Content="Фото" HorizontalAlignment="Left" Margin="10,18,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.293,0.332"/>
-                <Label Content="Фото" HorizontalAlignment="Left" Margin="10,34,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.293,0.332"/>
-                <Label Content="Фото" HorizontalAlignment="Left" Margin="10,49,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.293,0.332"/>
-                <Label Content="Фото" HorizontalAlignment="Left" Margin="10,3,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.293,0.332"/>
                 <Button Name="ButtonSelect" Content="Выбрать" HorizontalAlignment="Left" Margin="267,10,0,0" VerticalAlignment="Top" Width="142" Background="Green"/>
                 <Grid HorizontalAlignment="Left" Height="54" Margin="267,42,0,0" VerticalAlignment="Top" Width="132">
                     <Label Content="Рейтинг" HorizontalAlignment="Left" VerticalAlignment="Top" Width="52" Margin="0,18,0,0"/>
@@ -50,7 +45,7 @@
                 <Grid HorizontalAlignment="Left" Height="77" Margin="267,101,0,0" VerticalAlignment="Top" Width="142"/>
                 <Label Content="*Экзамен сдан" HorizontalAlignment="Left" Margin="267,127,0,0" VerticalAlignment="Top" Width="142"/>
                 <Label Content="*Данные проверенны" HorizontalAlignment="Left" Margin="267,101,0,0" VerticalAlignment="Top" Width="142"/>
-                <Label Content="Английсский язык&#xD;&#xA;" HorizontalAlignment="Left" Margin="69,52,0,0" VerticalAlignment="Top" Height="23"/>
+                <Label Content="Английсский язык&#xD;&#xA;" HorizontalAlignment="Left" Margin="69,52,0,0" VerticalAlignment="Top" Height="23" />
                 <Button Content="^З^" HorizontalAlignment="Left" Margin="204,8,0,0" VerticalAlignment="Top" Width="30" Height="33" Background="Coral"/>
                 <Grid HorizontalAlignment="Left" Height="84" Margin="10,80,0,0" VerticalAlignment="Top" Width="252">
                     <Label Content="Образование и опыт" HorizontalAlignment="Left" VerticalAlignment="Top"/>
@@ -62,6 +57,41 @@
                     <Label Content="......................................................................." HorizontalAlignment="Left" Margin="118,21,0,0" VerticalAlignment="Top" Width="197"/>
                     <Label Content="300р/1час" HorizontalAlignment="Left" Margin="320,22,0,0" VerticalAlignment="Top"/>
                 </Grid>
+                <Image Margin="10,6,359,180" Source="Новый точечный рисунок (3).bmp" Stretch="Fill"/>
+                <Label Content="Все Услуги и цены&gt;&gt;&gt;&#xD;&#xA;" HorizontalAlignment="Left" Margin="10,215,0,0" VerticalAlignment="Top"/>
+            </Grid>
+            <Grid HorizontalAlignment="Left" Height="48" VerticalAlignment="Top" Width="448">
+                <Label Content="Сортировать по" HorizontalAlignment="Left" Margin="154,14,0,0" VerticalAlignment="Top"/>
+                <Button Content="Рейтинг" HorizontalAlignment="Left" Margin="271,18,0,0" VerticalAlignment="Top" Width="54" RenderTransformOrigin="0.244,-0.227"/>
+                <Button Content="Отзывы" HorizontalAlignment="Left" Margin="330,18,0,0" VerticalAlignment="Top" Width="54" RenderTransformOrigin="0.244,-0.227" Click="Button_Click"/>
+                <Button Content="Цена" HorizontalAlignment="Left" Margin="389,18,0,0" VerticalAlignment="Top" Width="54" RenderTransformOrigin="0.244,-0.227" Click="Button_Click"/>
+            </Grid>
+            <Grid HorizontalAlignment="Left" Height="251" Margin="10,323,0,-17" VerticalAlignment="Top" Width="428">
+                <Label Content="Иванов Иван&#xA;Иванович" HorizontalAlignment="Left" Margin="69,10,0,0" VerticalAlignment="Top" Width="97"/>
+                <Button x:Name="ButtonSelect1" Content="Выбрать" HorizontalAlignment="Left" Margin="267,10,0,0" VerticalAlignment="Top" Width="142" Background="Green"/>
+                <Grid HorizontalAlignment="Left" Height="54" Margin="267,42,0,0" VerticalAlignment="Top" Width="132">
+                    <Label Content="Рейтинг" HorizontalAlignment="Left" VerticalAlignment="Top" Width="52" Margin="0,18,0,0"/>
+                    <Label Content="Отзыва" HorizontalAlignment="Left" VerticalAlignment="Top" Width="52" Margin="80,18,0,0"/>
+                    <Label Content="4" HorizontalAlignment="Left" VerticalAlignment="Top" Width="24"/>
+                    <Label Content="7" HorizontalAlignment="Left" VerticalAlignment="Top" Width="24" Margin="80,0,0,0"/>
+                </Grid>
+                <Grid HorizontalAlignment="Left" Height="77" Margin="267,101,0,0" VerticalAlignment="Top" Width="142"/>
+                <Label Content="*Экзамен сдан" HorizontalAlignment="Left" Margin="267,127,0,0" VerticalAlignment="Top" Width="142"/>
+                <Label Content="*Данные проверенны" HorizontalAlignment="Left" Margin="267,101,0,0" VerticalAlignment="Top" Width="142"/>
+                <Label Content="Английсский язык&#xA;" HorizontalAlignment="Left" Margin="69,52,0,0" VerticalAlignment="Top" Height="23" />
+                <Button Content="^З^" HorizontalAlignment="Left" Margin="204,8,0,0" VerticalAlignment="Top" Width="30" Height="33" Background="Coral"/>
+                <Grid HorizontalAlignment="Left" Height="84" Margin="10,80,0,0" VerticalAlignment="Top" Width="252">
+                    <Label Content="Образование и опыт" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                    <Label Content="Тут пишется о себе,образование ,опыте,&#xA;и что пожелает преподователь" HorizontalAlignment="Left" Margin="0,26,0,0" VerticalAlignment="Top" Width="232" Height="57"/>
+                </Grid>
+                <Grid HorizontalAlignment="Left" Height="51" Margin="10,171,0,0" VerticalAlignment="Top" Width="408">
+                    <Label Content="Цены" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                    <Label Content="Английсский язык" HorizontalAlignment="Left" Margin="3,21,0,0" VerticalAlignment="Top" Width="110"/>
+                    <Label Content="......................................................................." HorizontalAlignment="Left" Margin="118,21,0,0" VerticalAlignment="Top" Width="197"/>
+                    <Label Content="250р/1час" HorizontalAlignment="Left" Margin="320,22,0,0" VerticalAlignment="Top"/>
+                </Grid>
+                <Image Margin="10,6,359,180" Source="Новый точечный рисунок (3).bmp" Stretch="Fill"/>
+                <Label Content="Все Услуги и цены&gt;&gt;&gt;&#xA;" HorizontalAlignment="Left" Margin="10,215,0,0" VerticalAlignment="Top"/>
             </Grid>
         </Grid>
 
